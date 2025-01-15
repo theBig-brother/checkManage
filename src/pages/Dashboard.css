@@ -1,0 +1,9 @@
+/* 图片缩略图的样式 */
+.ant-image {
+    transition: transform 0.3s ease;
+  }
+  
+  .ant-image:hover {
+    transform: scale(1.05);
+  }
+  

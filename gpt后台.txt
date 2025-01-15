@@ -1,0 +1,16 @@
+react写一个页面（页面名字你帮忙起一个，提示：这个页面未来要嵌入一个后台），要求：
+1.向后端发送请求，显示5*5张图片.
+2.最下面有个页面选择，页面数量后端发送。
+3.注意，页面选择始终在整个页面最下面
+4.选择某一页，向后端发送一个请求，显示那一页。
+5.url单独写一个变量。
+6.用上ant design react
+7.是typescript
+8.这个页面要始终比屏幕小一些，不要把页面选择放到屏幕外面了
+9.这个页面包在antd的content里面，所以最外面的div不要有样式
+10.   后端这样返回：    return send_file(image_path, mimetype='image/jpeg')
+
+ <div style={{ display: 'flex', flexDirection: 'column', minHeight: '90vh',
+  padding: '20px', maxWidth: '1200px', margin: '0 auto', 
+  boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)', borderRadius: '10px', backgroundColor: '#fff' }}>
+   
