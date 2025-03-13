@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Row, Col, Button, Image, Pagination, Spin, message, Layout, Typography, Modal } from "antd";
-import styles from "./SafetyGallery.css"; // 引入样式
+import styles from "./SafetyGallery.module.css"; // 引入样式
 import axiosInstance from "../axios/axios"
 const { Footer } = Layout;
 const { Title } = Typography;
